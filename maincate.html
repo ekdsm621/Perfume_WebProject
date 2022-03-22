@@ -2,16 +2,16 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <title>Index</title>
+    <title>Main Category</title>
     <link href="css/style_index.css" type="text/css" rel="stylesheet">
+    <link href="css/style_maincate.css" type="text/css" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nanum+Myeongjo&display=swap');
         *{
             font-family: 'Libre Baskerville', serif;
         }
     </style>
-        <script src="javascript/jquery-1.12.3.js"></script>
-        <script src="javascript/script.js" defer type="text/javascript"></script>
+
 </head>
 <body>
     <div id="box">
@@ -21,7 +21,7 @@
             <div class="header_top">
                 <!-- 로고 -->
                 <div class="logo">
-                    <a href="#">
+                    <a href="index.html">
                         <h2>Perfumality</h2>
                     </a>
                 </div>
@@ -39,7 +39,7 @@
             <div class="nav">
                 <ul class="main_cate">
                     <li>
-                        <a href="maincate.html">FRAGRANCES</a>
+                        <a href="#">FRAGRANCES</a>
                         <ul class="sub_cate">
                             <li><a href="#">ALL</a></li>
                             <li><a href="#">BRAND</a></li>
@@ -92,25 +92,29 @@
         <!-- 본문: 신상품 / 베스트상품 -->
         <div id="content">
             <!-- 메인 사진 -->
-            <img class="main_pic" src="Images/lavender.jpg" alt="라벤더">
-            <!-- 신상품 -->
-            <div class="new_prod">
-                <h3>New Product</h3>
-                <hr>
-                <ul>
-                    <li><a href="#"><img src="" alt=""></a></li>
-                    <li><a href="#"><img src="" alt=""></a></li>
-                    <li><a href="#"><img src="" alt=""></a></li>
+            <div class="main">
+                <img class="main_pic" src="Images/rose.jpg" alt="장미">
+                <span class="main_cate_name">Fragrances</span>
+            </div>
+            <div class="sub">
+                <ul class="sub_cate_name">
+                    <li><a href="#">ALL</a></li>
+                    <li><a href="#">BRAND</a></li>
+                    <li><a href="#">UNISEX</a></li>
+                    <li><a href="#">FOR MAN</a></li>
+                    <li><a href="#">FOR WOMAN</a></li>
                 </ul>
             </div>
-            <!-- 베스트상품 -->
-            <div class="best_prod">
-                <h3>Best Seller</h3>
+
+            <div class="prod_list">
                 <hr>
                 <ul>
-                    <li><a href="#"><img src="Images/Perfume/Santa_Maria_Vovella_프리지아_오드코롱_50ml.png" alt=""></a></li>
-                    <li><a href="#"><img src="Images/Perfume/diptyque_오_드_퍼퓸_필로시코스_75ml.png" alt=""></a></li>
-                    <li><a href="#"><img src="Images/Perfume/diptyque_오드퍼퓸_도_손.png" alt=""></a></li>
+                    <li><a href="#"><img src="Images/Perfume/Santa_Maria_Vovella_프리지아_오드코롱_50ml.png" alt=""></a>
+                        <a href="#">Santa Maria Vovella<br>프리지아 오드 코롱</a></li>
+                    <li><a href="#"><img src="Images/Perfume/diptyque_오_드_퍼퓸_필로시코스_75ml.png" alt=""></a>
+                        <a href="#">diptyque<br>오 드 퍼퓸 필로시코스</a></li>
+                    <li><a href="#"><img src="Images/Perfume/diptyque_오드퍼퓸_도_손.png" alt=""></a>
+                        <a href="">diptyque<br>오 드 퍼퓸 도손</a></li>
                     <li><a href="#"><img src="" alt=""></a></li>
                     <li><a href="#"><img src="" alt=""></a></li>
                     <li><a href="#"><img src="" alt=""></a></li>
