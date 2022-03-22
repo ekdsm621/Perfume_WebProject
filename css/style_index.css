@@ -1,5 +1,3 @@
-
-
 *{
     margin: 0 auto;
     padding: 0;
@@ -79,12 +77,12 @@ body{
 
 /* navigation bar */
 .nav{
-    width: 100%;
+    width: 1400px;
     height:50px;
     float: left;
     position: absolute;
     top:120px;
-    font-size: 18px;
+    font-size: 20px;
 
 }
 
@@ -93,7 +91,6 @@ body{
 }
 
 .nav ul li{
-    border: black 1px;
     width: 233px;
     text-align: center;
     float: left;
@@ -101,7 +98,14 @@ body{
 }
 
 .sub_cate{
+    font-size: 15px;
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    height: 280px;
+    z-index: 10;
     display: none;
+    border-bottom: 1px solid rgb(233, 233, 233);
 }
 
 /* content */
@@ -113,8 +117,20 @@ body{
     float: left;
 }
 
-.main_pic{
+.imgslide{
     width: 1400px;
+    height: 500px;
+    float: left;
+}
+
+.imgslide a{
+    margin-left: 150px;
+    display: block;
+    position: absolute;
+}
+
+.main_pic{
+    width: 1395px;
     height: 600px;
     opacity: 80%;
     float: left;

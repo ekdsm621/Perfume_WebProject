@@ -1,0 +1,32 @@
+#content{
+    position: absolute;
+    top: 400px;
+}
+
+.login_box{
+    width: 600;
+    height: 500px;
+}
+
+.login_box td{
+    width: 250px;
+    height: 60px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.login_box input{
+    border: rgb(233, 233, 233) 3px solid;
+    border-radius: 0.5em;    
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+.login_box input:focus, input:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+button{
+    width: 100%;
+}
