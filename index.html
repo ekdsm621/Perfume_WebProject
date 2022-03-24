@@ -16,28 +16,30 @@
         <script src="javascript/script.js" defer type="text/javascript"></script>
 </head>
 <body>
+    <!-- .box: 헤더 + 본문 -->
     <div id="box">
-        <!-- 상단: 로고 / 로그인 메뉴 / 네비게이션바 -->
+        <!-- .header: 로고 + 회원 메뉴 + 네비게이션바 -->
         <div id="header">
-            <!-- 로고 + 로그인 -->
+            <!-- .header_top: 로고 + 로그인 -->
             <div class="header_top">
-                <!-- 로고 -->
+                <!-- .logo: 로고 -->
                 <div class="logo">
                     <a href="#">
                         <h2>Perfumality</h2>
                     </a>
                 </div>
-                <!-- 로그인 메뉴 -->
+                <!-- .member: 회원 관련 메뉴 -->
                 <div class="member">
+                    <!-- .login: 누르면 로그인창 띄움 -->
                     <a class="login"><img src="Images/member.png"></a>
                     <ul>
                         <li><a class="login">Login</a></li>
-                        <li><a href="#">Join</a></li>
+                        <li><a href="join.html">Join</a></li>
                         <li><a href="#">Cart</a></li>
                     </ul>
                 </div>
             </div>
-            <!-- 네비게이션 -->
+            <!-- .nav: 네비게이션 -->
             <div class="nav">
                 <ul class="main_cate">
                     <li>
@@ -91,11 +93,11 @@
             </div>
         </div>
 
-        <!-- 본문: 신상품 / 베스트상품 -->
+        <!-- .content : 메인 사진 + 신상품 + 베스트상품 -->
         <div id="content">
-            <!-- 메인 사진 -->
+            <!-- .main_pic: 메인 사진 -->
             <img class="main_pic" src="Images/lavender.jpg" alt="라벤더">
-            <!-- 신상품 -->
+            <!-- .new_prod: 신상품 -->
             <div class="new_prod">
                 <h3>New Product</h3>
                 <hr>
@@ -105,7 +107,7 @@
                     <li><a href="#"><img src="" alt=""></a></li>
                 </ul>
             </div>
-            <!-- 베스트상품 -->
+            <!-- .best_prod: 베스트상품 -->
             <div class="best_prod">
                 <h3>Best Seller</h3>
                 <hr>
@@ -124,6 +126,7 @@
         </div>
     </div>
 
+    <!-- .layer: .login 누르면 뜨는 로그인창 -->
     <div id="layer"> 
         <div class="layer_up">
             <div class="btn">x</div>
@@ -143,7 +146,7 @@
                 <div class="find">
                     <a href="#">비밀번호 찾기</a>
                     <a href="#">아이디 찾기</a>
-                    <a href="#">회원가입</a>
+                    <a href="join.html">회원가입</a>
                 </div>
                 <hr style="width: 425px; border-color: rgb(231, 231, 231);">
                 <div>SNS 로그인</div>
@@ -157,6 +160,7 @@
             </div>
         </div>
     </div> 
+    <!-- 푸터 -->
     <div id="footer">
         푸터
     </div>  

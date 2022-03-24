@@ -12,32 +12,35 @@
             font-family: 'Hahmlet', serif;
         }
     </style>
-     <script src="javascript/jquery-1.12.3.js"></script>
-     <script src="javascript/script.js" defer type="text/javascript"></script>
+    <script src="javascript/jquery-1.12.3.js"></script>
+    <script src="javascript/script.js" defer type="text/javascript"></script>
 </head>
 <body>
+<!-- index.html과 동일 -->
+    <!-- .box: 헤더 + 본문 -->
     <div id="box">
-        <!-- 상단: 로고 / 로그인 메뉴 / 네비게이션바 -->
+        <!-- .header: 로고 + 회원 메뉴 + 네비게이션바 -->
         <div id="header">
-        <!-- 로고 + 로그인 -->
+            <!-- .header_top: 로고 + 로그인 -->
             <div class="header_top">
-                <!-- 로고 -->
+                <!-- .logo: 로고 -->
                 <div class="logo">
-                    <a href="index.html">
+                    <a href="#">
                         <h2>Perfumality</h2>
                     </a>
                 </div>
-                <!-- 로그인 메뉴 -->
+                <!-- .member: 회원 관련 메뉴 -->
                 <div class="member">
+                    <!-- .login: 누르면 로그인창 띄움 -->
                     <a class="login"><img src="Images/member.png"></a>
                     <ul>
                         <li><a class="login">Login</a></li>
-                        <li><a href="#">Join</a></li>
+                        <li><a href="join.html">Join</a></li>
                         <li><a href="#">Cart</a></li>
                     </ul>
                 </div>
             </div>
-            <!-- 네비게이션 -->
+            <!-- .nav: 네비게이션 -->
             <div class="nav">
                 <ul class="main_cate">
                     <li>
@@ -83,24 +86,27 @@
                         <ul class="sub_cate">
                             <li><a href="#">CONTACT US</a></li>
                             <li><a href="#">EVENT</a></li>
-                            <li><a href="#">시향 서비스</a></li>
-                            <li><a href="#">문의 사항</a></li>
+                            <li><a href="#" style="font-weight: bold;">시향 서비스</a></li>
+                            <li><a href="#" style="font-weight: bold;">문의 사항</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <!-- 본문 -->
+
+<!-- detail.html 고유 -->
+        <!-- .content: 상품 사진 + 상품 정보(가격 등) + 상품 상세 사진 -->
         <div id="content">
             <div class="cont_top">
-                <!-- 상품 사진 -->
+                <!-- .imgslide: 상품 사진 -->
                 <div class="imgslide">
                     <a><img src="Images/product_img/prod_img1.png" alt=""></a>
                     <a><img src="Images/product_img/prod_img2.png" alt=""></a>
                     <a><img src="Images/product_img/prod_img3.png" alt=""></a>
                 </div>
-                <!-- 상품 설명 -->
+
+                <!-- .prod_info: 상품 정보 -->
                 <div class="prod_info">
                     <h2>딥디크 도손 오 드 뚜왈렛</h2>
                     <hr>
@@ -145,11 +151,15 @@
                 </div>
             </div>
             
+            <!-- .cont_body: 상품 상세 사진 -->
             <div class="cont_body">
-                
             </div>
         </div>
     </div>
+
+
+<!-- index.html과 동일 -->
+    <!-- .layer: .login 누르면 뜨는 로그인창 -->
     <div id="layer"> 
         <div class="layer_up">
             <div class="btn">x</div>
@@ -169,7 +179,7 @@
                 <div class="find">
                     <a href="#">비밀번호 찾기</a>
                     <a href="#">아이디 찾기</a>
-                    <a href="#">회원가입</a>
+                    <a href="join.html">회원가입</a>
                 </div>
                 <hr style="width: 425px; border-color: rgb(231, 231, 231);">
                 <div>SNS 로그인</div>

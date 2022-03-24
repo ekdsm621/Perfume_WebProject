@@ -250,12 +250,14 @@ h3{
 .user, .password{
     position: relative;
     margin-bottom: 10px;
+
 }
 
 .login_box label{
-    width: 150px;
+    width: 130px;
     height: 40px;
     padding-top: 10px;
+    margin-left: 20px;
     text-align: left;
     float: left;
 }

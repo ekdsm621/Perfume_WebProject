@@ -15,32 +15,36 @@
     <script src="javascript/script.js" defer type="text/javascript"></script>
 </head>
 <body>
+<!-- index.html과 동일 -->
+    <!-- .box: 헤더 + 본문 -->
     <div id="box">
-        <!-- 상단: 로고 / 로그인 메뉴 / 네비게이션바 -->
+        <!-- .header: 로고 + 회원 메뉴 + 네비게이션바 -->
         <div id="header">
-            <!-- 로고 + 로그인 -->
+            <!-- .header_top: 로고 + 로그인 -->
             <div class="header_top">
-                <!-- 로고 -->
+                <!-- .logo: 로고 -->
                 <div class="logo">
-                    <a href="index.html">
+                    <a href="#">
                         <h2>Perfumality</h2>
                     </a>
                 </div>
-                <!-- 로그인 메뉴 -->
+                <!-- .member: 회원 관련 메뉴 -->
                 <div class="member">
+                    <!-- .login: 누르면 로그인창 띄움 -->
                     <a class="login"><img src="Images/member.png"></a>
                     <ul>
                         <li><a class="login">Login</a></li>
-                        <li><a href="#">Join</a></li>
+                        <li><a href="join.html">Join</a></li>
                         <li><a href="#">Cart</a></li>
                     </ul>
                 </div>
             </div>
-            <!-- 네비게이션 -->
+
+            <!-- .nav: 네비게이션 -->
             <div class="nav">
                 <ul class="main_cate">
                     <li>
-                        <a href="#">FRAGRANCES</a>
+                        <a href="maincate.html">FRAGRANCES</a>
                         <ul class="sub_cate">
                             <li><a href="#">ALL</a></li>
                             <li><a href="#">BRAND</a></li>
@@ -82,25 +86,31 @@
                         <ul class="sub_cate">
                             <li><a href="#">CONTACT US</a></li>
                             <li><a href="#">EVENT</a></li>
-                            <li><a href="#">시향 서비스</a></li>
-                            <li><a href="#">문의 사항</a></li>
+                            <li><a href="#" style="font-weight: bold;">시향 서비스</a></li>
+                            <li><a href="#" style="font-weight: bold;">문의 사항</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <!-- 본문: 신상품 / 베스트상품 -->
+
+<!-- maincate.html 고유 -->
+        <!-- .content: 메인 이미지 슬라이드 + 서브 카테고리 + 상품 -->
         <div id="content">
+            <!-- .imgslide: 메인 이미지 슬라이드 -->
             <div class="imgslide">
                 <a href="#"><img src="Images/img_slide/배너1.jpg" alt=""></a>
                 <a href="#"><img src="Images/img_slide/배너2.jpg" alt=""></a>
                 <a href="#"><img src="Images/img_slide/배너3.jpg" alt=""></a>
             </div>
-            <!-- 메인 사진 -->
+
+            <!-- .main: 메인 카테고리 -->
             <div class="main">
                 <span class="main_cate_name">Fragrances</span>
             </div>
+
+            <!-- .sub: 서브 카테고리 -->
             <div class="sub">
                 <ul class="sub_cate_name">
                     <li><a href="#">ALL</a></li>
@@ -111,6 +121,8 @@
                 </ul>
             </div>
             <hr>
+
+            <!-- .prod_list: 상품 -->
             <div class="prod_list">
                 <ul>
                     <li><a href="#"><img src="Images/Perfume/Santa_Maria_Vovella_프리지아_오드코롱_50ml.png" alt=""></a>
@@ -124,12 +136,14 @@
                     <li><a href="#"><img src="" alt=""></a></li>
                     <li><a href="#"><img src="" alt=""></a></li>
                     <li><a href="#"><img src="" alt=""></a></li>
-
                 </ul>
             </div>
         </div>
     </div>
 
+
+<!-- index.html과 동일 -->
+    <!-- .layer: .login 누르면 뜨는 로그인창 -->
     <div id="layer"> 
         <div class="layer_up">
             <div class="btn">x</div>
@@ -149,7 +163,7 @@
                 <div class="find">
                     <a href="#">비밀번호 찾기</a>
                     <a href="#">아이디 찾기</a>
-                    <a href="#">회원가입</a>
+                    <a href="join.html">회원가입</a>
                 </div>
                 <hr style="width: 425px; border-color: rgb(231, 231, 231);">
                 <div>SNS 로그인</div>
