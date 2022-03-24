@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100&family=Libre+Baskerville&display=swap');
 /* content */
 .content{
     width: 1400px;
@@ -6,7 +6,7 @@
     position: relative;
     top: 150px;
     float: left;
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Hahmlet', serif;
 }
 
 .cont_top{

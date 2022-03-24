@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="css/style_index.css" type="text/css">
     <link rel="stylesheet" href="css/style_detail.css" type="text/css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nanum+Myeongjo&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100&family=Libre+Baskerville&display=swap');
         *{
-            font-family: 'Libre Baskerville', 'Nanum Myeongjo', serif;
+            font-family: 'Hahmlet', serif;
         }
     </style>
      <script src="javascript/jquery-1.12.3.js"></script>
@@ -29,9 +29,9 @@
                 </div>
                 <!-- 로그인 메뉴 -->
                 <div class="member">
-                    <a href="#"><img src="Images/member.png"></a>
+                    <a class="login"><img src="Images/member.png"></a>
                     <ul>
-                        <li><a href="#">Login</a></li>
+                        <li><a class="login">Login</a></li>
                         <li><a href="#">Join</a></li>
                         <li><a href="#">Cart</a></li>
                     </ul>
@@ -150,6 +150,40 @@
             </div>
         </div>
     </div>
+    <div id="layer"> 
+        <div class="layer_up">
+            <div class="btn">x</div>
+            <div class="uptitle">LOGIN</div>
+            <div class="upbody">
+                <form action="#" class="login_box">
+                    <div class="user">
+                        <label for="id">User</label>
+                        <input type="text" id="id">
+                    </div>
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                    </div>
+                    <button>로그인</button>
+                </form>
+                <div class="find">
+                    <a href="#">비밀번호 찾기</a>
+                    <a href="#">아이디 찾기</a>
+                    <a href="#">회원가입</a>
+                </div>
+                <hr style="width: 425px; border-color: rgb(231, 231, 231);">
+                <div>SNS 로그인</div>
+                <div class="sns_login">
+                    <img src="Images/sns_icon/kakaotalk.ico" alt="">
+                    <img src="Images/sns_icon/facebook.ico" alt="">
+                    <img src="Images/sns_icon/instagram.ico" alt="">
+                    <img src="Images/sns_icon/google.ico" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div> 
+
     <div id="footer">
         푸터
     </div>        

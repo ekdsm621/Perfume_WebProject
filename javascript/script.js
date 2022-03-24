@@ -40,15 +40,15 @@ jQuery(document).ready(function(){
 
          // (".notice li:first").click : .notice 요소의 후손 요소
          // 중에서 첫 번째 요소를 클릭하면
-         $(".notice li:first").click(function(){
+         $(".login").click(function(){
             // #modal과 일치하는 요소에 'active'클래스를 추가함 
-            $("#modal").addClass("active");
+            $("#layer").addClass("active");
          });
 
          // .btn 요소를 클릭하면
          $(".btn").click(function(){
              // #modal의 'active'클래스를 삭제함
-            $("#modal").removeClass("active");
+            $("#layer").removeClass("active");
          });
 
 });
