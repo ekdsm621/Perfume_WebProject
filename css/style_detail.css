@@ -68,9 +68,16 @@ select:hover{
 
 /* 본문 내용 (제품 상세 설명) */
 .cont_body{
-    width: 100%;
+    width: 950px;
     height: 1500px;
-    background-color: rgba(0, 0, 0, 0.03);
     position:relative;
-    top: 600px;
+}
+
+.cont_body img{
+    width: 950px;
+}
+
+#footer{
+    position: absolute;
+    top: 5800px;
 }

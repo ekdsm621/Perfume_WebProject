@@ -104,8 +104,17 @@ input:disabled{
 }
 
 input[type="submit"]{
-    width: 656px;
+    width: 325px;
     margin-top: 10px;
+}
+
+button[type="button"]{
+    width: 325px;
+    margin-top: 10px;
+    border: rgb(204, 204, 204) 1px solid;
+    border-radius: 0.5em;
+    padding: 10px;
+    font-size: 17px;
 }
 
 textarea{
